@@ -1,0 +1,89 @@
+
+        @media screen and (max-width:700px){
+        *{
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+            list-style: none
+        }
+        body{
+            background: #424242;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px;
+                color: white;
+                background: black;
+            }
+        header h1{
+                font-size: 1.8em;
+                font-style: italic;
+                font-weight: bold;
+            }
+        header h2{
+                font-size: 1.6em;
+                color: red;
+            }
+        header .fa-phone-alt{
+                background: red;
+                border-radius: 50%;
+                padding: 8px;
+                
+            }
+        header .fa-whatsapp{
+                background: green;
+                border-radius: 50%;
+                padding: 8px;
+            }
+        .conteudo{padding: 15px}
+        .conteudo ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .conteudo a{
+            color: white;
+        }
+        .lista{
+            padding: 20px;
+            margin: 0 5px;
+            border-bottom: solid 1px white;
+            width: 90%;
+        }
+        .novo{
+            background: red;
+            padding: 5px;
+            border-radius: 10px;
+            margin-left: 10px;
+            font-size: 0.8em;
+        }
+        .fa-angle-up{
+                right: 30px;
+                position: absolute;
+                }
+        .item-institucional{
+            padding:20px;
+            margin: 0 5px 0px 35px;
+            border-bottom: solid 1px white;
+            max-width: 80%;
+        }
+        .institucional a{
+            color: white;
+            }
+        .institucional  div{
+                background: red;
+                padding: 15px;
+            }   
+            .show{
+                display: block;
+                transition: 0.5s;
+            } 
+            .hide{
+                display: none;
+                transition: 0.5s;
+            }
+        }
